@@ -1,0 +1,28 @@
+﻿# Python environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+logs/
+*.log
+*.tmp
+
+# Local databases and vector indexes
+*.sqlite
+*.sqlite3
+*.db
+vector_db/
+
+# Local user workspaces
+workspaces/
+
+# Operating system
+.DS_Store
+Thumbs.db
